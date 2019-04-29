@@ -18,8 +18,17 @@ if (sideA === sideB && sideB === sideC && sideC === sideA){
   else if (sideB === sideC && sideB !== sideA) {
     alert("Isosceles Triangle")
   }
-  else if (sideA !== sideB && sideB !== sideC && sideA !== sideA && sideC + sideB> sideA && sideB + sideC> sideA) {
+  else if (sideA !== sideB && sideB !== sideC && sideA !== sideC && sideA + sideB> sideC && sideB + sideC> sideA) {
     alert("Scalene Triangle")
+  }
+  else if (sideA + sideB <== sideC) {
+    alert("TRY AGAIN")
+  }
+  else if (sideB + sideC<== sideA) {
+    alert("TRY AGAIN")
+  }
+  else if(sideA + sideC<== sideB){
+    alert("TRY AGAIN")
   }
 
   }
