@@ -5,3 +5,12 @@ function run() {
     var sideA=parseInt(inp1);
     var sideB=parseInt(inp2);
     var sideC=parseInt(inp3);
+
+if (sideA === sideB && sideB === sideC && sideC === sideA){
+      alert("Equilateral Triangle")
+    }
+  else if (sideA === sideB && sideA !== sideC) {
+    alert("Isocseles Triangle")
+  }
+
+  }
