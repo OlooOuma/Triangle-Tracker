@@ -6,29 +6,31 @@ function run() {
     var sideB=parseInt(inp2);
     var sideC=parseInt(inp3);
 
-if (sideA === sideB && sideB === sideC && sideC === sideA){
-      alert("Equilateral Triangle")
+  if(sideA + sideB <= sideC || sideB + sideC<= sideA || sideA + sideC<= sideB  ){
+    alert("Not a triangle");
+  }
+  else if (sideA === sideB && sideB === sideC && sideC === sideA){
+      alert("Equilateral Triangle");
     }
   else if (sideA === sideB && sideA !== sideC) {
-    alert("Isosceles Triangle")
+    alert("Isosceles Triangle");
   }
   else if (sideA === sideC && sideA !== sideB) {
-    alert("Isosceles Triangle")
+    alert("Isosceles Triangle");
   }
   else if (sideB === sideC && sideB !== sideA) {
-    alert("Isosceles Triangle")
+    alert("Isosceles Triangle");
   }
-  else if (sideA !== sideB && sideB !== sideC && sideA !== sideC && sideA + sideB> sideC && sideB + sideC> sideA) {
-    alert("Scalene Triangle")
+  else if (sideA !== sideB && sideB !== sideC && sideA !== sideC) {
+    alert("Scalene Triangle");
   }
-  else if (sideA + sideB <== sideC) {
-    alert("TRY AGAIN")
+  else if (sideA + sideB <= sideC) {
+    alert("TRY AGAIN");
   }
-  else if (sideB + sideC<== sideA) {
-    alert("TRY AGAIN")
+  else if (sideB + sideC<= sideA) {
+    alert("TRY AGAIN");
   }
-  else if(sideA + sideC<== sideB){
-    alert("TRY AGAIN")
+  else if(sideA + sideC<= sideB){
+    alert("TRY AGAIN");
   }
-
   }
