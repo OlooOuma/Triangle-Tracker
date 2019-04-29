@@ -15,5 +15,11 @@ if (sideA === sideB && sideB === sideC && sideC === sideA){
   else if (sideA === sideC && sideA !== sideB) {
     alert("Isosceles Triangle")
   }
+  else if (sideB === sideC && sideB !== sideA) {
+    alert("Isosceles Triangle")
+  }
+  else if (sideA !== sideB && sideB !== sideC && sideA !== sideA && sideC + sideB> sideA && sideB + sideC> sideA) {
+    alert("Scalene Triangle")
+  }
 
   }
