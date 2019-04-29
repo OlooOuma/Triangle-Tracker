@@ -10,7 +10,10 @@ if (sideA === sideB && sideB === sideC && sideC === sideA){
       alert("Equilateral Triangle")
     }
   else if (sideA === sideB && sideA !== sideC) {
-    alert("Isocseles Triangle")
+    alert("Isosceles Triangle")
+  }
+  else if (sideA === sideC && sideA !== sideB) {
+    alert("Isosceles Triangle")
   }
 
   }
