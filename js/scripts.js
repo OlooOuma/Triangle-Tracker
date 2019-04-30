@@ -24,7 +24,7 @@ function run() {
   else if (sideA !== sideB && sideB !== sideC && sideA !== sideC) {
     alert("Scalene Triangle");
   }
-  else if (sideA + sideB <= sideC) {
+  /*else if (sideA + sideB <= sideC) {
     alert("TRY AGAIN");
   }
   else if (sideB + sideC<= sideA) {
@@ -32,5 +32,5 @@ function run() {
   }
   else if(sideA + sideC<= sideB){
     alert("TRY AGAIN");
-  }
+  }*/
   }
